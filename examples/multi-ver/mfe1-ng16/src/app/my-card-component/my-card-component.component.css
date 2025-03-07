@@ -1,0 +1,78 @@
+.card {
+  border: 1px solid #080da1;
+  background-color: #ededf9;
+  text-align: center;
+  color: #080da1;
+  padding: 20px;
+}
+
+.user-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  max-width: 500px;
+  transition: transform 0.2s ease;
+  border-left: 4px solid #4a90e2;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+}
+
+.card-header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-header h2 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.card-header .username {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.info-section {
+  margin-bottom: 1.2rem;
+}
+
+.info-label {
+  color: #4a90e2;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.info-content {
+  color: #34495e;
+  line-height: 1.5;
+}
+
+.sub-section {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+.sub-section .info-label {
+  color: #27ae60;
+}
+
+.geo-location {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.company-bs {
+  font-style: italic;
+  color: #e74c3c;
+}

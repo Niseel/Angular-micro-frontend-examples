@@ -1,0 +1,26 @@
+<div class="card">
+  Shell running Angular {{ version }}
+  <p>
+    <button (click)="preparePage()">Get New Page</button>
+  </p>
+  <div>
+    {{ mfe1WebComponentProps | json }}
+  </div>
+  <hr />
+  <p>
+    <b>Web component loaded using the WebComponentWrapper on the html</b>
+    <mft-wc-wrapper
+      [options]="mfe1WebComponentOptions"
+      [props]="mfe1WebComponentProps"
+      [events]="mfe1WebComponentEvents"
+    ></mft-wc-wrapper>
+  </p>
+  <p>Message received by the shell from the Web component: {{ message }}</p>
+  <hr />
+  <!-- <p>
+    <a routerLink="/cards">Load Web component from Cards</a>
+  </p> -->
+  <!-- Web component loaded using the WebComponentWrapper with Angular routing
+  <router-outlet (activate)="routerActivateHandler($event)"></router-outlet>
+  <hr /> -->
+</div>
