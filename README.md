@@ -39,6 +39,7 @@ My job here is just to collect, reuse and guide new people so that they do not h
 |:---------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [basic-module-bundlers](/examples/basic-module-bundlers/README.md) </br></br> Create your first webpack manually               | We should know how like Angular, React or Vue bundle and create interfaces. There is no magic here but we will also go from the basic concepts of web programming and [Webpack](https://webpack.js.org/concepts/) is a tool born to do this better. |
 | [basic-web-component](/examples/basic-web-component/README.md) </br></br> Web Component in action with Angular | Basically you will know how Angular creates web components and how to use them.                                                                                                                                                                     |
+| [multi-ver](/examples/multi-ver-ng/README.md) </br></br>                                                                                                                                                          | Loading Web Component by Wrapper with difference version Angular |
 
 
 ## API Reference
